@@ -41,7 +41,7 @@ namespace _04.CODE_Phoenix_Oscar_Romeo_November
                 var creature = kvp.Key;
                 var count = kvp.Value.Count;
 
-                squadMatesWithCreatures[creature] = count;
+                squadMatesWithCreatures.Add(creature, count);
 
                 foreach (var squad in kvp.Value)
                 {
